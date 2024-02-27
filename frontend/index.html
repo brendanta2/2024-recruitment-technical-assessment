@@ -39,26 +39,37 @@
     </aside>
 
     <section id="main-page">
-        <p id="first">DevSoc presents</p>
-        <h1>unilectives</h1>
-        <p id="motto">Your one-stop shop for UNSW course and elective reviews.</p>
+        <div>
+            <p id="first">DevSoc presents</p>
+            <h1>unilectives</h1>
+            <p id="motto">Your one-stop shop for UNSW course and elective reviews.</p>
+        </div>
 
-        <input type="search" placeholder="     Search for a course e.g. COMP1511">
+        <div id="search-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
+            </svg>         
+            <input type="search" placeholder="         Search for a course e.g. COMP1511">
+        </div>
 
         <select name="" id="">
-            <optgroup><option value="">Sort by</option></optgroup>
+            <optgroup>                
+                <option value="">Sort by</option>
+            </optgroup>
         </select>
 
         <section id="select-course">
             <div class="box">
-                <div class="top-div">
-                    <h2>COMP1511</h2>
-                    <div>
-                        <span class="rating">★★★★★</span>
-                        <p class="review-text">68 reviews</p>
+                <div class="top-div-wrapper">
+                    <div class="top-div">
+                        <h2>COMP1511</h2>
+                        <div>
+                            <span class="rating">★★★★★</span>
+                            <p class="review-text">68 reviews</p>
+                        </div>
                     </div>
+                    <p>Programming Fundamentals</p>
                 </div>
-                <p>Programming Fundamentals</p>
                 <div class="offering-terms">
                     <div class="container"><span>Term 1</span></div>
                     <div class="container"><span>Term 2</span></div>
@@ -66,6 +77,7 @@
                 </div>
             </div>
             <div class="box">
+                <div class="top-div-wrapper">
                 <div class="top-div">
                     <h2>COMP1531</h2>
                     <div>
@@ -73,7 +85,9 @@
                         <p class="review-text">47 reviews</p>
                     </div>
                 </div>
+                
                 <p>Software Engineering Fundamentals</p>
+            </div>
                 <div class="offering-terms">
                     <div class="container"><span>Term 1</span></div>
                     <div class="container"><span>Term 2</span></div>
@@ -81,14 +95,16 @@
                 </div>
             </div>
             <div class="box">
-                <div class="top-div">
-                    <h2>COMP1521</h2>
-                    <div>
-                        <span class="rating">★★★★★</span>
-                        <p class="review-text">40 reviews</p>
+                <div class="top-div-wrapper">
+                    <div class="top-div">
+                        <h2>COMP1521</h2>
+                        <div>
+                            <span class="rating">★★★★★</span>
+                            <p class="review-text">40 reviews</p>
+                        </div>
                     </div>
+                    <p>Computer Systems Fundamentals</p>
                 </div>
-                <p>Computer Systems Fundamentals</p>
                 <div class="offering-terms">
                     <div class="container"><span>Term 1</span></div>
                     <div class="container"><span>Term 2</span></div>
@@ -96,6 +112,7 @@
                 </div>
             </div>
             <div class="box">
+                <div class="top-div-wrapper">
                 <div class="top-div">
                     <h2>COMP2521</h2>
                     <div>
@@ -104,6 +121,7 @@
                     </div>
                 </div>
                 <p>Data Structures and Algorithms</p>
+                </div>
                 <div class="offering-terms">
                     <div class="container"><span>Summer</span></div>
                     <div class="container"><span>Term 1</span></div>
@@ -112,6 +130,7 @@
                 </div>
             </div>
             <div class="box">
+                <div class="top-div-wrapper">
                 <div class="top-div">
                     <h2>COMP2511</h2>
                     <div>
@@ -120,6 +139,7 @@
                     </div>
                 </div>
                 <p>Object-Oriented Design & Programming</p>
+                </div>
                 <div class="offering-terms">
                     <div class="container"><span>Term 1</span></div>
                     <div class="container"><span>Term 2</span></div>
@@ -127,6 +147,7 @@
                 </div>
             </div>
             <div class="box">
+                <div class="top-div-wrapper">
                 <div class="top-div">
                     <h2>COMP3311</h2>
                     <div>
@@ -135,6 +156,7 @@
                     </div>
                 </div>
                 <p>Database Systems</p>
+                </div>
                 <div class="offering-terms">
                     <div class="container"><span>Term 1</span></div>
                     <div class="container"><span>Term 3</span></div>
